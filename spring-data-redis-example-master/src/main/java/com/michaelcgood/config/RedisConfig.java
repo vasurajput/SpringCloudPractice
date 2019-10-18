@@ -21,7 +21,7 @@ public class RedisConfig {
 	@Bean
 	JedisConnectionFactory jedisConnectionFactory() {
 		JedisConnectionFactory jcf = new JedisConnectionFactory();
-		jcf.setHostName("191.96.12.46");
+		jcf.setHostName("localhost");
 		jcf.setPort(6379);
 		return jcf;
 	}
